@@ -17,7 +17,7 @@ terraform {
   #   # manually, uncomment and fill in the config below.
 
   #   # bucket         = "<YOUR S3 BUCKET>"
-  #   # key            = "prod/terraform.tfstate"
+  #   # key            = "staging/terraform.tfstate"
   #   # region         = "us-east-2"
   #   # dynamodb_table = "<YOUR DYNAMODB TABLE>"
   #   # encrypt        = true
