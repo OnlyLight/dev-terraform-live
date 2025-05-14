@@ -11,7 +11,7 @@
 # }
 
 # Pin Terraform version
-terraform_version_constraint = ">= 1.5.0"
+# terraform_version_constraint = ">= 1.5.0"
 terragrunt_version_constraint = ">= 0.38.0"
 
 locals {
