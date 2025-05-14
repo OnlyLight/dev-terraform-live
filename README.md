@@ -3,14 +3,14 @@ This repository manages AWS infrastructure (VPC and EKS) for multiple environmen
 
 ## Structure
 
-`live/`: Environment-specific configurations (us-east-1/dev, us-east-1/staging, us-east-1/prod).
-`live/us-east-1/<env>/vpc/`: VPC module configuration.
+`live/`: Environment-specific configurations (us-east-1/dev, us-east-1/staging, us-east-1/prod).  
+`live/us-east-1/<env>/vpc/`: VPC module configuration.  
 `live/us-east-1/<env>/eks/`: EKS module configuration, depends on VPC.
 
 ## Prerequisites
-Terraform >= 1.5.0
-Terragrunt >= 0.38.0
-AWS CLI configured with access keys
+Terraform >= 1.5.0  
+Terragrunt >= 0.38.0  
+AWS CLI configured with access keys  
 S3 bucket (my-terraform-state-bucket) and DynamoDB table (terraform-locks) for state management
 
 ## Setup
