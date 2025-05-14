@@ -3,9 +3,9 @@ This repository manages AWS infrastructure (VPC and EKS) for multiple environmen
 
 ## Structure
 
-live/: Environment-specific configurations (us-east-1/dev, us-east-1/staging, us-east-1/prod).
-live/us-east-1/<env>/vpc/: VPC module configuration.
-live/us-east-1/<env>/eks/: EKS module configuration, depends on VPC.
+`live/`: Environment-specific configurations (us-east-1/dev, us-east-1/staging, us-east-1/prod).
+`live/us-east-1/<env>/vpc/`: VPC module configuration.
+`live/us-east-1/<env>/eks/`: EKS module configuration, depends on VPC.
 
 ## Prerequisites
 Terraform >= 1.5.0
